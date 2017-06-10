@@ -34,115 +34,108 @@ Like <kbd>F10</kbd>, but also skips loops, function calls, etc.
 -------------------------------------
 MAME Debugger / Command Help
 -------------------------------------
-A [<update>]
+### A [<update>]
 Animate (trace) and update display once per frame [or every <update> opcodes only]
 
-D <1|2> <address>
+### D <1|2> <address>
 Display memory <1|2> starting at <address>
 	
-E            
-<1|2> [<address>]
+### E <1|2> [<address>]
 Edit memory window <1|2> [at <address>]
 
-M            
-<1|2> [BYTE|WORD|DWORD]
+### M <1|2> [BYTE|WORD|DWORD]
 Change memory window mode to default [to BYTE|WORD|DWORD (or 0|1|2)]
 
-F            
+### F            
 Fast
 
-G            
-[<address>]
+### G [<address>]
 Go [and break at <address>]
 
-J            
-<address>
+### J <address>
 Jump to <address> in disassembly window
 
-R            
-<register> <value>
+### R <register> <value>
 Replace <register> with <value> (<value> may also be a <register>)
 
-BP           BPX      CODE_NONE,
-<address> [<times>]
+### BP           BPX <address> [<times>]
 Break on execution of <address> [after ignoring it <times>]
 
-BC           
+### BC           
 Clear execution breakpoint
 
-RP <register> [<value> [<mask>]]
+### RP <register> [<value> [<mask>]]
 Break if <register> changes [to <value> [compare after applying <mask>]]
 
-RC           
+### RC           
 Clear register watchpoint
 
-WP 			BPW      CODE_NONE,
-<address> [<value>]
+### WP 		BPW <address> [<value>]
 Break if data at <address> changes [to <value>]
 
-WC           
+### WC           
 Clear data watchpoint
 
-BPR <start> [<end>]
+### BPR <start> [<end>]
 Break if data between <start> and <end> is read or written
 
-HERE         
+### HERE         
 Run to cursor
 
-DASM         
+### DASM         
 <filename> <start> <end> [<boolean>]
 Disassemble to <filename> from address <start> to <end>
 Opcode dump on by default [OFF|NO|0 without]
 
-DUMP         
+### DUMP         
 <filename> <start> <end> [<data size> [<ASCII mode> [<prog/data memory>]]]
 Dump to <filename> from address <start> to <end>
 [data size BYTE|WORD|DWORD (also 0|1|2)]
 [ASCII mode OFF|TRANSLATE|FULL (also 0|1|2)]
 [PROG or DATA memory (also 0|1) for CPUs supporting it]
 
-TRACE {<filename> [<reg1> [<reg2>...]]}|OFF
+### TRACE {<filename> [<reg1> [<reg2>...]]}|OFF
 Trace to <filename> [dumping <reg1> [<reg2>...]] | OFF to stop tracing.
 
-CODELIST [filename]|OFF
+### CODELIST [filename]|OFF
 Collect code addresses during execution and condense them to blocks.
 Code blocks data is written to <filename> when switched off
 
-SAVE <filename> <start> <end> [OPCODES|DATA]
+### SAVE <filename> <start> <end> [OPCODES|DATA]
 Save binary to <filename> from address <start> to <end>
 [either OPCODES (from OP_ROM, default) or DATA (from OP_RAM), also 0|1].
 
-SCANLINE     
+### SCANLINE     
 Toggles the display of scanlines
 
-SD     
+### SD     
 Disables Sound when debugger window is active
 
-SE     
+### SE     
 Enables Sound when debugger window is active
 
-IGNORE <cpunum>
+### IGNORE <cpunum>
 Ignore CPU #<cpunum> while debugging or tracing
 
-OBSERVE <cpunum>
+### OBSERVE <cpunum>
 Observe CPU #<cpunum> while debugging or tracing
 
-REPEAT rate
+### REPEAT rate
 Set keyboard initial repeat rate (rate/frame will increase to 1/frame)
 
-CASE DEFAULT|LOWER|UPPER (also 0|1|2)
+### CASE DEFAULT|LOWER|UPPER (also 0|1|2)
 Set disassembly case style.
 
-OPCODES <boolean>
+### OPCODES <boolean>
 Display opcodes in disassembly window
 
-RELATIVE <boolean>
+### RELATIVE <boolean>
 Display relative jump addresses in disassembly window
 
-SQUEEZE <boolean>
+### SQUEEZE <boolean>
 Allow squeezed memory display
 
-COLOR <element> <foreground> [<background>]
+### COLOR <element> <foreground> [<background>]
 Set <element> color to <foreground> on BLACK [or <background>].
 For a list of <elements> and <colors> see mamedbg.cfg
 
