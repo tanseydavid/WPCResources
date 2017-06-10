@@ -1,6 +1,7 @@
--------------------------------------
-MAME Debugger / All Windows
--------------------------------------
+MAME Debugger
+=============
+All Windows
+-----------
 
 | Key             | Function Purpose                                                    |
 |:----------------|---------------------------------------------------------------------|
@@ -16,9 +17,21 @@ MAME Debugger / All Windows
 | <kbd>SHIFT+ENTER</kbd> | Like <kbd>F10</kbd>, but also skips loops, function calls, etc. |
 	
 
+Command Line window 
 -------------------------------------
-MAME Debugger / Command Help
--------------------------------------
+
+| Key             | Function Purpose                                                    |
+|:----------------|---------------------------------------------------------------------|
+| <kbd>UP</kbd> | Move cursor up in disassembly window
+| <kbd>DOWN</kbd> | Move cursor down in disassembly window
+| <kbd>PGUP</kbd> | Move cursor up one page in disassembly window
+| <kbd>PGDN</kbd> | Move cursor down one page in disassembly window
+| <kbd>HOME</kbd> | Move cursor to first page in disassembly window
+| <kbd>END</kbd> | Move cursor to last page in disassembly window
+| <kbd>LEFT</kbd> | Back to the previous point in 'follow history'
+| <kbd>RIGHT</kbd> | Follow the current instruction's code or data reference
+
+
 ### `A [<update>]`
 Animate (trace) and update display once per frame [or every `<update>` opcodes only]
 
@@ -124,102 +137,41 @@ Allow squeezed memory display
 Set <element> color to <foreground> on BLACK [or <background>].
 For a list of <elements> and <colors> see mamedbg.cfg
 
-<kbd>UP</kbd>
-Move cursor up in disassembly window
 
-<kbd>DOWN</kbd>
-Move cursor down in disassembly window
-
-<kbd>PGUP</kbd>
-Move cursor up one page in disassembly window
-
-<kbd>PGDN</kbd>
-Move cursor down one page in disassembly window
-
-<kbd>HOME</kbd>
-Move cursor to first page in disassembly window
-
-<kbd>END</kbd>
-Move cursor to last page in disassembly window
-
-<kbd>LEFT</kbd>
-Back to the previous point in 'follow history'
-
-<kbd>RIGHT</kbd>
-Follow the current instruction's code or data reference
-
-
--------------------------------------
-MAME Debugger / CPU Registers Help
+CPU Registers Windows Help
 -------------------------------------
 
 
+Disassembly Window Help
 -------------------------------------
-MAME Debugger / Disassembly Help
--------------------------------------
-<kbd>D</kbd>
-Change disassembly case style to default
 
-<kbd>L</kbd>L
-Change disassembly case style to lower case
-
-<kbd>U</kbd>U
-Change disassembly case style to upper case
-
-<kbd>M</kbd>M
-Toggle disassembly opcode display mode
-
-<kbd>UP</kbd>UP
-Move cursor up in disassembly window
-
-<kbd>DOWN</kbd>DOWN
-Move cursor down in disassembly window
-
-<kbd>PGUP</kbd>
-Move cursor up one page in disassembly window
-
-<kbd>PGDN</kbd>
-Move cursor down one page in disassembly window
-
-<kbd>HOME</kbd>
-Move cursor to first page in disassembly window
-
-<kbd>END</kbd>
-Move cursor to last page in disassembly window
-
-<kbd>LEFT</kbd>
-Back to the previous point in 'follow history'
-
-<kbd>RIGHT</kbd>
-Follow the current instruction's code or data reference
+| Key             | Function Purpose                                                    |
+|:----------------|---------------------------------------------------------------------|
+| <kbd>D</kbd> | Change disassembly case style to default
+| <kbd>L</kbd> | Change disassembly case style to lower case
+| <kbd>U</kbd> | Change disassembly case style to upper case
+| <kbd>M</kbd> | Toggle disassembly opcode display mode
+| <kbd>UP</kbd> | Move cursor up in disassembly window
+| <kbd>DOWN</kbd> | Move cursor down in disassembly window
+| <kbd>PGUP</kbd> | Move cursor up one page in disassembly window
+| <kbd>PGDN</kbd> | Move cursor down one page in disassembly window
+| <kbd>HOME</kbd> | Move cursor to first page in disassembly window
+| <kbd>END</kbd> | Move cursor to last page in disassembly window
+| <kbd>LEFT</kbd> | Back to the previous point in 'follow history'
+| <kbd>RIGHT</kbd> | Follow the current instruction's code or data reference
 	
 
+Memory Editor Help
 -------------------------------------
-MAME Debugger / Memory Editor Help
--------------------------------------
-<kbd>TAB</kbd>
-Switch between windows (backwards SHIFT+TAB)
 
-<kbd>H</kbd>
-Toggle between hex, ASCII and full character set mode
-
-<kbd>P</kbd>
-Toggle memory display between DATA and PROGRAM memory (Harvard-architecture CPUs)
-
-<kbd>I</kbd>
-Toggle memory display between CPU internal and normal memory
-
-<kbd>M</kbd>
-Switch memory display mode between bytes, words and dwords
-
-<kbd>S</kbd>
-Search memory for a sequence of bytes
-
-<kbd>F2</kbd>
-Toggle breakpoint at current cursor position
-
-<kbd>F4</kbd>
-Run to cursor
-
-<kbd>F4</kbd>
-Set data watchpoint to current memory location
+| Key             | Function Purpose                                                    |
+|:----------------|---------------------------------------------------------------------|
+| <kbd>TAB</kbd> | Switch between windows (backwards SHIFT+TAB)
+| <kbd>H</kbd> | Toggle between hex, ASCII and full character set mode
+| <kbd>P</kbd> | Toggle memory display between DATA and PROGRAM memory (Harvard-architecture CPUs)
+| <kbd>I</kbd> | Toggle memory display between CPU internal and normal memory
+| <kbd>M</kbd> | Switch memory display mode between bytes, words and dwords
+| <kbd>S</kbd> | Search memory for a sequence of bytes
+| <kbd>F2</kbd> | Toggle breakpoint at current cursor position
+| <kbd>F4</kbd> | Run to cursor
+| <kbd>F4</kbd> | Set data watchpoint to current memory location
