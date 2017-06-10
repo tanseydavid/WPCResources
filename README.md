@@ -15,6 +15,6 @@ Links, notes and other resources about WPC internals
 ### WPC Internals notes from *maddes*
 * [WPC Debugging](https://www.maddes.net/pinball/wpc_debugging.htm)
 
-# System 11 Internals notes from *Francis*
+### System 11 Internals notes from *Francis*
 * [System 11 debugging](http://pinhacks.com/showthread.php?tid=80)
 * [System 11 scoring](http://pinhacks.com/showthread.php?tid=82)
