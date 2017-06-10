@@ -34,11 +34,11 @@ Like <kbd>F10</kbd>, but also skips loops, function calls, etc.
 -------------------------------------
 MAME Debugger / Command Help
 -------------------------------------
-### A [<update>]
-Animate (trace) and update display once per frame [or every <update> opcodes only]
+### `A [<update>]`
+Animate (trace) and update display once per frame [or every `<update>` opcodes only]
 
-### D <1|2> <address>
-Display memory <1|2> starting at <address>
+### `D <1|2> <address>`
+Display memory `<1|2>` starting at `<address>`
 	
 ### E <1|2> [<address>]
 Edit memory window <1|2> [at <address>]
