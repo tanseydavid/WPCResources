@@ -2,10 +2,8 @@
 MAME Debugger / All Windows
 -------------------------------------
 
-## Keys
-
 | Key             | Function Purpose                                                    |
-|:---------------:|---------------------------------------------------------------------|
+|:----------------|---------------------------------------------------------------------|
 | <kbd>F1</kbd>   | Help - maybe you realized this ;) |
 | <kbd>TAB</kbd>  | Switch between windows (backwards SHIFT+TAB) |
 | <kbd>F6</kbd>   | Set the focus to the next (not ignored) CPU |
@@ -15,7 +13,7 @@ MAME Debugger / All Windows
 | <kbd>F12</kbd>  | Go! |
 | <kbd>ESC</kbd>  | Go! |
 | <kbd>ENTER</kbd> | |
-| <kbd>[SHIFT+ENTER]</kbd> | Like <kbd>F10</kbd>, but also skips loops, function calls, etc. |
+| <kbd>SHIFT+ENTER</kbd> | Like <kbd>F10</kbd>, but also skips loops, function calls, etc. |
 	
 
 -------------------------------------
