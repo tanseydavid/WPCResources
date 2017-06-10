@@ -18,3 +18,7 @@ Links, notes and other resources about WPC internals
 ### System 11 Internals notes from *Francis*
 * [System 11 debugging](http://pinhacks.com/showthread.php?tid=80)
 * [System 11 scoring](http://pinhacks.com/showthread.php?tid=82)
+
+## PinMAME
+### PinMAME Debugger 
+* [Debugger HELP]()
