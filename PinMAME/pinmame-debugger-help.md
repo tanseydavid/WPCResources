@@ -1,21 +1,6 @@
-MAME Debugger
-=============
-All Windows
------------
+PinMAME Debugger Help
+=====================
 
-| Key             | Function Purpose                                                    |
-|:----------------|---------------------------------------------------------------------|
-| <kbd>F1</kbd>   | Help - maybe you realized this ;) |
-| <kbd>TAB</kbd>  | Switch between windows (backwards SHIFT+TAB) |
-| <kbd>F6</kbd>   | Set the focus to the next (not ignored) CPU |
-| <kbd>F8</kbd>   | Step one instruction |
-| <kbd>F9</kbd>   | Animate (trace) at speed set by last \"A\" command |
-| <kbd>F10</kbd>  | Step over instruction at cursor (ie. execute call, jsr or bsr) |
-| <kbd>F12</kbd>  | Go! |
-| <kbd>ESC</kbd>  | Go! |
-| <kbd>ENTER</kbd> | |
-| <kbd>SHIFT+ENTER</kbd> | Like <kbd>F10</kbd>, but also skips loops, function calls, etc. |
-	
 
 Command Line window 
 -------------------------------------
@@ -30,6 +15,20 @@ Command Line window
 | <kbd>END</kbd> | Move cursor to last page in disassembly window
 | <kbd>LEFT</kbd> | Back to the previous point in 'follow history'
 | <kbd>RIGHT</kbd> | Follow the current instruction's code or data reference
+
+| Key             | Function Purpose                                                    |
+|:----------------|---------------------------------------------------------------------|
+| <kbd>TAB</kbd>  | Switch between windows (backwards SHIFT+TAB) |
+| <kbd>F1</kbd>   | Help - maybe you realized this ;) |
+| <kbd>F6</kbd>   | Set the focus to the next (not ignored) CPU |
+| <kbd>F8</kbd>   | Step one instruction |
+| <kbd>F9</kbd>   | Animate (trace) at speed set by last \"A\" command |
+| <kbd>F10</kbd>  | Step over instruction at cursor (ie. execute call, jsr or bsr) |
+| <kbd>F12</kbd>  | Go! |
+| <kbd>ESC</kbd>  | Go! |
+| <kbd>ENTER</kbd> | |
+| <kbd>SHIFT+ENTER</kbd> | Like <kbd>F10</kbd>, but also skips loops, function calls, etc. |
+	
 
 
 ### `A [<update>]`
@@ -140,6 +139,18 @@ For a list of <elements> and <colors> see mamedbg.cfg
 
 CPU Registers Windows Help
 -------------------------------------
+| Key             | Function Purpose                                                    |
+|:----------------|---------------------------------------------------------------------|
+| <kbd>TAB</kbd>  | Switch between windows (backwards SHIFT+TAB) |
+| <kbd>F1</kbd>   | Help - maybe you realized this ;) |
+| <kbd>F6</kbd>   | Set the focus to the next (not ignored) CPU |
+| <kbd>F8</kbd>   | Step one instruction |
+| <kbd>F9</kbd>   | Animate (trace) at speed set by last \"A\" command |
+| <kbd>F10</kbd>  | Step over instruction at cursor (ie. execute call, jsr or bsr) |
+| <kbd>F12</kbd>  | Go! |
+| <kbd>ESC</kbd>  | Go! |
+| <kbd>ENTER</kbd> | |
+| <kbd>SHIFT+ENTER</kbd> | Like <kbd>F10</kbd>, but also skips loops, function calls, etc. |
 
 
 Disassembly Window Help
@@ -159,7 +170,20 @@ Disassembly Window Help
 | <kbd>END</kbd> | Move cursor to last page in disassembly window
 | <kbd>LEFT</kbd> | Back to the previous point in 'follow history'
 | <kbd>RIGHT</kbd> | Follow the current instruction's code or data reference
-	
+
+| Key             | Function Purpose                                                    |
+|:----------------|---------------------------------------------------------------------|
+| <kbd>TAB</kbd>  | Switch between windows (backwards SHIFT+TAB) |
+| <kbd>F1</kbd>   | Help - maybe you realized this ;) |
+| <kbd>F6</kbd>   | Set the focus to the next (not ignored) CPU |
+| <kbd>F8</kbd>   | Step one instruction |
+| <kbd>F9</kbd>   | Animate (trace) at speed set by last \"A\" command |
+| <kbd>F10</kbd>  | Step over instruction at cursor (ie. execute call, jsr or bsr) |
+| <kbd>F12</kbd>  | Go! |
+| <kbd>ESC</kbd>  | Go! |
+| <kbd>ENTER</kbd> | |
+| <kbd>SHIFT+ENTER</kbd> | Like <kbd>F10</kbd>, but also skips loops, function calls, etc. |
+
 
 Memory Editor Help
 -------------------------------------
@@ -175,3 +199,18 @@ Memory Editor Help
 | <kbd>F2</kbd> | Toggle breakpoint at current cursor position
 | <kbd>F4</kbd> | Run to cursor
 | <kbd>F4</kbd> | Set data watchpoint to current memory location
+
+
+| Key             | Function Purpose                                                    |
+|:----------------|---------------------------------------------------------------------|
+| <kbd>TAB</kbd>  | Switch between windows (backwards SHIFT+TAB) |
+| <kbd>F1</kbd>   | Help - maybe you realized this ;) |
+| <kbd>F6</kbd>   | Set the focus to the next (not ignored) CPU |
+| <kbd>F8</kbd>   | Step one instruction |
+| <kbd>F9</kbd>   | Animate (trace) at speed set by last \"A\" command |
+| <kbd>F10</kbd>  | Step over instruction at cursor (ie. execute call, jsr or bsr) |
+| <kbd>F12</kbd>  | Go! |
+| <kbd>ESC</kbd>  | Go! |
+| <kbd>ENTER</kbd> | |
+| <kbd>SHIFT+ENTER</kbd> | Like <kbd>F10</kbd>, but also skips loops, function calls, etc. |
+
