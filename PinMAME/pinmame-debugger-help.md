@@ -38,7 +38,7 @@ Animate (trace) and update display once per frame [or every `<update>` opcodes o
 Display memory `<1|2>` starting at `<address>`
 	
 ### `E <1|2> [<address>]`
-Edit memory window <1|2> [at <address>]
+Edit memory window `<1|2>` [at `<address>`]
 
 ### `M <1|2> [BYTE|WORD|DWORD]`
 Change memory window mode to default [to `BYTE|WORD|DWORD` (or `0|1|2`)]
