@@ -21,4 +21,4 @@ Links, notes and other resources about WPC internals
 
 ## PinMAME
 ### PinMAME Debugger 
-* [Debugger HELP]()
+* [Debugger HELP](PinMAME/pinmame-debugger-help.md)
