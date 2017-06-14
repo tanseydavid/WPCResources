@@ -22,3 +22,6 @@ Links, notes and other resources about WPC internals
 ## PinMAME
 ### PinMAME Debugger 
 * [Debugger HELP](PinMAME/pinmame-debugger-help.md)
+
+[TEST](http://pinhacks.com/attachment.php?aid=73)
+
