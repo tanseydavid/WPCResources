@@ -7,6 +7,7 @@ Links, notes and other resources about WPC internals
 * [Transistors](http://pinhacks.com/showthread.php?tid=93) | [PDF](http://pinhacks.com/attachment.php?aid=75) (80 pages)
 * [Adjustments](http://pinhacks.com/showthread.php?tid=92) | [PDF](http://pinhacks.com/attachment.php?aid=74) (48 pages)
 * [Adjustment Lockouts](http://pinhacks.com/showthread.php?tid=111) | [PDF](http://pinhacks.com/attachment.php?aid=88) (34 pages)
+* [Sound calls](http://pinhacks.com/showthread.php?tid=8) | [PDF](http://pinhacks.com/attachment.php?aid=81)  (59 pages)
 * [DMD scroller](http://pinhacks.com/showthread.php?tid=77)
 * [Solenoid notes](http://pinhacks.com/showthread.php?tid=76)
 * [Coin vs Free play mods](http://pinhacks.com/showthread.php?tid=16)
