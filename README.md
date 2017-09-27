@@ -3,8 +3,8 @@ Links, notes and other resources about WPC internals
 
 ### WPC Internals notes from *mrglee*
 * [Lamp Matrix](http://pinhacks.com/showthread.php?tid=91) | [PDF](http://pinhacks.com/attachment.php?aid=73) (46 pages)
-* [Transistors](http://pinhacks.com/attachment.php?aid=75)
-* [Adjustments](http://pinhacks.com/showthread.php?tid=92)
+* [Transistors](http://pinhacks.com/attachment.php?aid=75) | [PDF](http://pinhacks.com/attachment.php?aid=75) (80 pages)
+* [Adjustments](http://pinhacks.com/showthread.php?tid=92) | [PDF](http://pinhacks.com/attachment.php?aid=74) (48 pages)
 * [Adjustment Lockouts](http://pinhacks.com/showthread.php?tid=111)
 * [DMD scroller](http://pinhacks.com/showthread.php?tid=77)
 * [Solenoid notes](http://pinhacks.com/showthread.php?tid=76)
