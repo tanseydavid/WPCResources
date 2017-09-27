@@ -2,6 +2,7 @@
 Links, notes and other resources about WPC internals
 
 ### WPC Internals notes from *mrglee*
+* [Match Values](http://pinhacks.com/showthread.php?tid=112) | [PDF](http://pinhacks.com/attachment.php?aid=89) (14 pages)
 * [Lamp Matrix](http://pinhacks.com/showthread.php?tid=91) | [PDF](http://pinhacks.com/attachment.php?aid=73) (46 pages)
 * [Transistors](http://pinhacks.com/showthread.php?tid=93) | [PDF](http://pinhacks.com/attachment.php?aid=75) (80 pages)
 * [Adjustments](http://pinhacks.com/showthread.php?tid=92) | [PDF](http://pinhacks.com/attachment.php?aid=74) (48 pages)
