@@ -2,7 +2,7 @@
 Links, notes and other resources about WPC internals
 
 ### WPC Internals notes from *mrglee*
-* [Lamp Matrix](http://pinhacks.com/showthread.php?tid=91) 
+* [Lamp Matrix](http://pinhacks.com/showthread.php?tid=91) | [PDF 46pp](http://pinhacks.com/attachment.php?aid=73)
 * [Transistors](http://pinhacks.com/attachment.php?aid=75)
 * [Adjustments](http://pinhacks.com/showthread.php?tid=92)
 * [Adjustment Lockouts](http://pinhacks.com/showthread.php?tid=111)
@@ -23,5 +23,5 @@ Links, notes and other resources about WPC internals
 ### PinMAME Debugger 
 * [Debugger HELP](PinMAME/pinmame-debugger-help.md)
 
-[TEST](http://pinhacks.com/attachment.php?aid=73)
+
 
