@@ -12,7 +12,7 @@ Links, notes and other resources about WPC internals
 * [Coin vs Free play mods](http://pinhacks.com/showthread.php?tid=16)
 * [Flipper Codes table](http://pinhacks.com/showthread.php?tid=52)
 * [Master Font Table](http://pinhacks.com/showthread.php?tid=23)
-* [Disable POST] (http://pinhacks.com/showthread.php?tid=2)
+* [Disable POST](http://pinhacks.com/showthread.php?tid=2)
 
 ### WPC Internals notes from *maddes*
 * [WPC Debugging](https://www.maddes.net/pinball/wpc_debugging.htm)
