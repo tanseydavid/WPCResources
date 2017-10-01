@@ -28,7 +28,7 @@ Links, notes and other resources about WPC internals
 * [Debugger HELP](PinMAME/pinmame-debugger-help.md)
 
 ## FreeWPC
-* [WPC Hardware Description](https://github.com/bcd/freewpc/blob/master/doc/hardware.texi)
+* [WPC Hardware Description](http://bcd.github.io/freewpc/The-WPC-Hardware.html#The-WPC-Hardware)
 
 ## FlipProjets
 * [WPC PIC Security Chip](https://www.flipprojets.fr/SecurityChip_EN.php)
