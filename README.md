@@ -30,7 +30,7 @@ Links, notes and other resources about WPC internals
 ## FreeWPC
 * [WPC Hardware Description](https://github.com/bcd/freewpc/blob/master/doc/hardware.texi)
 
-##FlipProjets
+## FlipProjets
 * [WPC PIC Security Chip](https://www.flipprojets.fr/SecurityChip_EN.php)
 
 
