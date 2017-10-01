@@ -32,5 +32,6 @@ Links, notes and other resources about WPC internals
 
 ## FlipProjets
 * [WPC PIC Security Chip](https://www.flipprojets.fr/SecurityChip_EN.php)
+* [WPC Prototype board](https://pinside.com/pinball/forum/topic/wpc-95-cpu-prototype-board)
 
 
