@@ -23,6 +23,9 @@ Links, notes and other resources about WPC internals
 * [NBA Fastbreak Serial port](https://pinside.com/pinball/forum/topic/nba-fastbreak)
 * [Modern WPC Serial Port project](http://pinball-mods.com/blogs/?p=278)
 
+### WPC DCS Sound
+* [FPGA DCS Project - Dr. Edward Cheung](http://www.edcheung.com/album/album07/Pinball/wpc_sound.htm)
+
 ### System 11 Internals notes from *Francis*
 * [System 11 debugging](http://pinhacks.com/showthread.php?tid=80)
 * [System 11 scoring](http://pinhacks.com/showthread.php?tid=82)
