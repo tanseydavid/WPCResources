@@ -33,6 +33,7 @@ Links, notes and other resources about WPC internals
 
 ## FreeWPC
 * [WPC Hardware Description](http://bcd.github.io/freewpc/The-WPC-Hardware.html#The-WPC-Hardware)
+* [FreeWPC Serial Port Debugging](http://bcd.github.io/freewpc/Debugging.html)
 
 ## FlipProjets
 * [WPC PIC Security Chip](https://www.flipprojets.fr/SecurityChip_EN.php)
