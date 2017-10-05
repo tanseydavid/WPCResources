@@ -27,7 +27,7 @@ Links, notes and other resources about WPC internals
 * [FPGA DCS Project - Dr. Edward Cheung](http://www.edcheung.com/album/album07/Pinball/wpc_sound.htm)
 
 ### WPC Hardware Repair Guide
-* [WPC Repair Guide][http://www.pinballsupernova.com/Williams%20Repair%20Guide/Williams%201990-1999%20WPC.pdf)
+* [WPC Repair Guide](http://www.pinballsupernova.com/Williams%20Repair%20Guide/Williams%201990-1999%20WPC.pdf)
 ### System 11 Internals notes from *Francis*
 * [System 11 debugging](http://pinhacks.com/showthread.php?tid=80)
 * [System 11 scoring](http://pinhacks.com/showthread.php?tid=82)
