@@ -21,6 +21,7 @@ Links, notes and other resources about WPC internals
 
 ### WPC Serial Port
 * [NBA Fastbreak Serial port](https://pinside.com/pinball/forum/topic/nba-fastbreak)
+* [Modern WPC Serial Port project](http://pinball-mods.com/blogs/?p=278)
 
 ### System 11 Internals notes from *Francis*
 * [System 11 debugging](http://pinhacks.com/showthread.php?tid=80)
