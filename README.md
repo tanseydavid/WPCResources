@@ -28,9 +28,13 @@ Links, notes and other resources about WPC internals
 
 ### WPC Hardware Repair Guide
 * [WPC Repair Guide](http://www.pinballsupernova.com/Williams%20Repair%20Guide/Williams%201990-1999%20WPC.pdf)
+
 ### System 11 Internals notes from *Francis*
 * [System 11 debugging](http://pinhacks.com/showthread.php?tid=80)
 * [System 11 scoring](http://pinhacks.com/showthread.php?tid=82)
+
+### WPC History from Wikipedia
+* [Williams Pinball Controller](https://en.wikipedia.org/wiki/Williams_Pinball_Controller)
 
 ## PinMAME
 ### PinMAME Debugger 
