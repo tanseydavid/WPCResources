@@ -23,6 +23,9 @@ Links, notes and other resources about WPC internals
 * [NBA Fastbreak Serial port](https://pinside.com/pinball/forum/topic/nba-fastbreak)
 * [Modern WPC Serial Port project](http://pinball-mods.com/blogs/?p=278)
 
+## WPC LEDS Information
+* [WPC LEDS Explained](https://www.pinball.co.uk/pinball-problems-2/wpc-leds-explained/)
+
 ### WPC DCS Sound
 * [FPGA DCS Project - Dr. Edward Cheung](http://www.edcheung.com/album/album07/Pinball/wpc_sound.htm)
 
