@@ -42,7 +42,7 @@ Links, notes and other resources about WPC internals
 ## PinMAME
 ### PinMAME Debugger 
 * [Debugger HELP](PinMAME/pinmame-debugger-help.md)
-
+* [PinMAME nvRAM Maps](https://github.com/tomlogic/pinmame-nvram-maps)
 ## FreeWPC
 * [WPC Hardware Description](http://bcd.github.io/freewpc/The-WPC-Hardware.html#The-WPC-Hardware)
 * [FreeWPC Serial Port Debugging](http://bcd.github.io/freewpc/Debugging.html)
