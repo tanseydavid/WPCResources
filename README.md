@@ -51,4 +51,6 @@ Links, notes and other resources about WPC internals
 * [WPC PIC Security Chip](https://www.flipprojets.fr/SecurityChip_EN.php)
 * [WPC Prototype board](https://pinside.com/pinball/forum/topic/wpc-95-cpu-prototype-board)
 
+#6809 Resources
+* [Assist09 Montior and Forth asm source code](http://home.hccnet.nl/a.w.m.van.der.horst/m6809.html)
 
