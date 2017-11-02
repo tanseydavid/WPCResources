@@ -36,6 +36,9 @@ Links, notes and other resources about WPC internals
 * [System 11 debugging](http://pinhacks.com/showthread.php?tid=80)
 * [System 11 scoring](http://pinhacks.com/showthread.php?tid=82)
 
+### Williams Level 7 Internals notes from *jaskey*
+* [Williams Level 7 Programming Guide](http://gamearchive.askey.org/Pinball/Manufacturers/Williams/PinBuilder/text/williams_lvl7_programming.html)
+
 ### WPC History from Wikipedia
 * [Williams Pinball Controller](https://en.wikipedia.org/wiki/Williams_Pinball_Controller)
 
