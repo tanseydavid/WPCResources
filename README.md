@@ -22,6 +22,7 @@ Links, notes and other resources about WPC internals
 ### WPC Serial Port
 * [NBA Fastbreak Serial port](https://pinside.com/pinball/forum/topic/nba-fastbreak)
 * [Modern WPC Serial Port project](http://pinball-mods.com/blogs/?p=278)
+* [SKETCH - WPC AV Board + Serial Port Chips](
 
 ## WPC LEDS Information
 * [WPC LEDS Explained](https://www.pinball.co.uk/pinball-problems-2/wpc-leds-explained/)
