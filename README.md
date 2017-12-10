@@ -39,6 +39,8 @@ Links, notes and other resources about WPC internals
 
 ### Williams Level 7 Internals notes from *jaskey*
 * [Williams Level 7 Programming Guide](http://gamearchive.askey.org/Pinball/Manufacturers/Williams/PinBuilder/text/williams_lvl7_programming.html)
+* [System 7 Macro Codes](http://gamearchive.askey.org/Pinball/Manufacturers/Williams/PinBuilder/text/sys7_macros.txt)
+* [System 7 Macro Codes - Summary Card](http://gamearchive.askey.org/Pinball/Manufacturers/Williams/PinBuilder/text/sys7_macrocard.txt)
 * [System 7 Fix Guide (PDF: 14 pages)](http://arcarc.xmission.com/Pinball/PDF%20Pinball%20Misc/System%207%20Fix%20Guide.pdf)
 * [System 7 Games (IPDB)](http://www.ipdb.org/search.pl?mpu=4&qh=checked&ng=checked&sortby=date&searchtype=advanced)
 
