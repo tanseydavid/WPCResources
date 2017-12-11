@@ -63,6 +63,5 @@ Links, notes and other resources about WPC internals
 * [Assist09 Monitor and Forth asm source code](http://home.hccnet.nl/a.w.m.van.der.horst/m6809.html)
 * [6809 Emulation Page](http://atjs.mbnet.fi/mc6809/#Info)
 
-## Diassembly / Reverse Engineering
-
+## Disassembly / Reverse Engineering
 * [Binary Ninja - Low-Level IL Explanation](https://blog.trailofbits.com/2017/01/31/breaking-down-binary-ninjas-low-level-il/)
