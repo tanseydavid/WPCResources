@@ -64,15 +64,15 @@ Links, notes and other resources about WPC internals
 * [Assist09 Monitor and Forth asm source code](http://home.hccnet.nl/a.w.m.van.der.horst/m6809.html)
 * [6809 Emulation Page](http://atjs.mbnet.fi/mc6809/#Info)
 
-### Other Hardware / Software projects 
-#### FreeWPC
+## Other Hardware / Software projects 
+### FreeWPC
 * [WPC Hardware Description](http://bcd.github.io/freewpc/The-WPC-Hardware.html#The-WPC-Hardware)
 * [FreeWPC Serial Port Debugging](http://bcd.github.io/freewpc/Debugging.html)
 
-#### FlipProjets
+### FlipProjets
 * [WPC PIC Security Chip](https://www.flipprojets.fr/SecurityChip_EN.php)
 * [WPC Prototype board](https://pinside.com/pinball/forum/topic/wpc-95-cpu-prototype-board)
 
 
-#### Disassembly / Reverse Engineering
+### Disassembly / Reverse Engineering
 * [Binary Ninja - Low-Level IL Explanation](https://blog.trailofbits.com/2017/01/31/breaking-down-binary-ninjas-low-level-il/)
