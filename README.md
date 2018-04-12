@@ -1,6 +1,9 @@
 # WPCResources
 Links, notes and other resources about WPC internals
 
+### WPC History from Wikipedia
+* [Williams Pinball Controller](https://en.wikipedia.org/wiki/Williams_Pinball_Controller)
+
 ### WPC Internals notes from *mrglee*
 * [Match Values](http://pinhacks.com/showthread.php?tid=112) | [PDF](http://pinhacks.com/attachment.php?aid=89) (14 pages)
 * [Lamp Matrix](http://pinhacks.com/showthread.php?tid=91) | [PDF](http://pinhacks.com/attachment.php?aid=73) (46 pages)
@@ -25,7 +28,7 @@ Links, notes and other resources about WPC internals
 * [SKETCH - WPC AV Board + Serial Port Chips](https://github.com/tanseydavid/WPCResources/blob/master/images/DIAGRAM%20-%20WPC%20Serial%20Port.jpg)
 * [WPC Printer Kit](https://github.com/tanseydavid/WPCResources/blob/master/WPC-Printer-Kit.md)
 
-## WPC LEDS Information
+### WPC LEDS Information
 * [WPC LEDS Explained](https://www.pinball.co.uk/pinball-problems-2/wpc-leds-explained/)
 
 ### WPC DCS Sound
@@ -34,6 +37,7 @@ Links, notes and other resources about WPC internals
 ### WPC Hardware Repair Guide
 * [WPC Repair Guide](http://www.pinballsupernova.com/Williams%20Repair%20Guide/Williams%201990-1999%20WPC.pdf)
 
+## Other Williams Pin Platforms
 ### System 11 Internals notes from *Francis*
 * [System 11 debugging](http://pinhacks.com/showthread.php?tid=80)
 * [System 11 scoring](http://pinhacks.com/showthread.php?tid=82)
@@ -45,13 +49,20 @@ Links, notes and other resources about WPC internals
 * [System 7 Fix Guide (PDF: 14 pages)](http://arcarc.xmission.com/Pinball/PDF%20Pinball%20Misc/System%207%20Fix%20Guide.pdf)
 * [System 7 Games (IPDB)](http://www.ipdb.org/search.pl?mpu=4&qh=checked&ng=checked&sortby=date&searchtype=advanced)
 
-### WPC History from Wikipedia
-* [Williams Pinball Controller](https://en.wikipedia.org/wiki/Williams_Pinball_Controller)
+## MAME / PinMAME
+### MAME Debugger
+* [Scripting MAME cia LUA](http://docs.mamedev.org/techspecs/luaengine.html)
+* [MAME LUA Script for COIN 1 Ram Seacrch](http://www.mamecheat.co.uk/forums/viewtopic.php?t=12245)
 
-## PinMAME
 ### PinMAME Debugger 
 * [Debugger HELP](PinMAME/pinmame-debugger-help.md)
 * [PinMAME nvRAM Maps](https://github.com/tomlogic/pinmame-nvram-maps)
+
+## 6809 Resources
+* [Assist09 Monitor and Forth asm source code](http://home.hccnet.nl/a.w.m.van.der.horst/m6809.html)
+* [6809 Emulation Page](http://atjs.mbnet.fi/mc6809/#Info)
+
+### Other Hardware / Software projects 
 ## FreeWPC
 * [WPC Hardware Description](http://bcd.github.io/freewpc/The-WPC-Hardware.html#The-WPC-Hardware)
 * [FreeWPC Serial Port Debugging](http://bcd.github.io/freewpc/Debugging.html)
@@ -60,9 +71,6 @@ Links, notes and other resources about WPC internals
 * [WPC PIC Security Chip](https://www.flipprojets.fr/SecurityChip_EN.php)
 * [WPC Prototype board](https://pinside.com/pinball/forum/topic/wpc-95-cpu-prototype-board)
 
-## 6809 Resources
-* [Assist09 Monitor and Forth asm source code](http://home.hccnet.nl/a.w.m.van.der.horst/m6809.html)
-* [6809 Emulation Page](http://atjs.mbnet.fi/mc6809/#Info)
 
 ## Disassembly / Reverse Engineering
 * [Binary Ninja - Low-Level IL Explanation](https://blog.trailofbits.com/2017/01/31/breaking-down-binary-ninjas-low-level-il/)
