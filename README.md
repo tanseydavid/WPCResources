@@ -1,10 +1,12 @@
 # WPCResources
 Links, notes and other resources about WPC internals
 
-### WPC History from Wikipedia
-* [Williams Pinball Controller](https://en.wikipedia.org/wiki/Williams_Pinball_Controller)
+## History
+* [Williams Pinball Controller (WIKIPEDIA)](https://en.wikipedia.org/wiki/Williams_Pinball_Controller)
 
-### WPC Internals notes from *mrglee*
+## WPC Internals
+
+#### notes from *mrglee* (Glen Lee)
 * [Match Values](http://pinhacks.com/showthread.php?tid=112) | [PDF](http://pinhacks.com/attachment.php?aid=89) (14 pages)
 * [Lamp Matrix](http://pinhacks.com/showthread.php?tid=91) | [PDF](http://pinhacks.com/attachment.php?aid=73) (46 pages)
 * [Transistors](http://pinhacks.com/showthread.php?tid=93) | [PDF](http://pinhacks.com/attachment.php?aid=75) (80 pages)
@@ -19,19 +21,19 @@ Links, notes and other resources about WPC internals
 * [Disable POST](http://pinhacks.com/showthread.php?tid=2)
 * [Checksum Hacks](http://pinhacks.com/showthread.php?tid=10)
 
-### WPC Internals notes from *maddes*
+#### notes from *maddes* (Matthias Buecher)
 * [WPC Debugging](https://www.maddes.net/pinball/wpc_debugging.htm)
 
-### WPC Serial Port
+#### WPC Serial Port
 * [NBA Fastbreak Serial port](https://pinside.com/pinball/forum/topic/nba-fastbreak)
 * [Modern WPC Serial Port project](http://pinball-mods.com/blogs/?p=278)
 * [SKETCH - WPC AV Board + Serial Port Chips](https://github.com/tanseydavid/WPCResources/blob/master/images/DIAGRAM%20-%20WPC%20Serial%20Port.jpg)
 * [WPC Printer Kit](https://github.com/tanseydavid/WPCResources/blob/master/WPC-Printer-Kit.md)
 
-### WPC LEDS Information
+#### WPC LEDS Information
 * [WPC LEDS Explained](https://www.pinball.co.uk/pinball-problems-2/wpc-leds-explained/)
 
-### WPC DCS Sound
+#### WPC DCS Sound
 * [FPGA DCS Project - Dr. Edward Cheung](http://www.edcheung.com/album/album07/Pinball/wpc_sound.htm)
 
 ### WPC Hardware Repair Guide
