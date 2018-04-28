@@ -54,6 +54,7 @@ Links, notes and other resources about WPC internals
 ## MAME / PinMAME
 ### MAME Serial Ports
 * [Serial Ports in MAME](https://frakaday.blogspot.com/2016/05/serial-ports-in-mame-part-i.html)
+* [Connect a Serial Port to a MAME Board Driver](https://frakaday.blogspot.se/p/serial-port-in-mame.html)
 
 ### MAME Debugger
 * [Scripting MAME cia LUA](http://docs.mamedev.org/techspecs/luaengine.html)
