@@ -52,6 +52,9 @@ Links, notes and other resources about WPC internals
 * [System 7 Games (IPDB)](http://www.ipdb.org/search.pl?mpu=4&qh=checked&ng=checked&sortby=date&searchtype=advanced)
 
 ## MAME / PinMAME
+### MAME Serial Ports
+* [Serial Ports in MAME](https://frakaday.blogspot.com/2016/05/serial-ports-in-mame-part-i.html)
+
 ### MAME Debugger
 * [Scripting MAME cia LUA](http://docs.mamedev.org/techspecs/luaengine.html)
 * [MAME LUA Script for COIN 1 Ram Seacrch](http://www.mamecheat.co.uk/forums/viewtopic.php?t=12245)
