@@ -24,6 +24,9 @@ Links, notes and other resources about WPC internals
 #### notes from *maddes* (Matthias Buecher)
 * [WPC Debugging](https://www.maddes.net/pinball/wpc_debugging.htm)
 
+### WPC Bench Test unit
+* [Williams WPC 95 bench test (youtube)](https://www.youtube.com/watch?v=aBJBBL42gS8)
+
 #### WPC Serial Port
 * [NBA Fastbreak Serial port](https://pinside.com/pinball/forum/topic/nba-fastbreak)
 * [Modern WPC Serial Port project](http://pinball-mods.com/blogs/?p=278)
