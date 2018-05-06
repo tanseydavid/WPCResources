@@ -70,7 +70,8 @@ Links, notes and other resources about WPC internals
 ## 6809 Resources
 * [Assist09 Monitor and Forth asm source code](http://home.hccnet.nl/a.w.m.van.der.horst/m6809.html)
 * [6809 Emulation Page](http://atjs.mbnet.fi/mc6809/#Info)
-* [6809 OpCodes (alphbetical)](6809opsalpha.md)
+* [6809 OpCodes (alphabetical order)](6809opsalpha.md)
+* [6809 OpCodes (numeric order)](6809opsnumeric.md)
 
 ## Other Hardware / Software projects 
 ### FreeWPC
