@@ -32,6 +32,7 @@ Links, notes and other resources about WPC internals
 * [Modern WPC Serial Port project](http://pinball-mods.com/blogs/?p=278)
 * [SKETCH - WPC AV Board + Serial Port Chips](https://github.com/tanseydavid/WPCResources/blob/master/images/DIAGRAM%20-%20WPC%20Serial%20Port.jpg)
 * [WPC Printer Kit](https://github.com/tanseydavid/WPCResources/blob/master/WPC-Printer-Kit.md)
+* [16c4500 UART Datasheet](http://www.ti.com/lit/ds/symlink/tl16c450.pdf)
 * [NS16550A UART / PC16550D UART datasheet](http://www.ti.com/lit/ds/symlink/pc16550d.pdf)
 
 #### WPC LEDS Information
