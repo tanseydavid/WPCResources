@@ -63,7 +63,7 @@ Links, notes and other resources about WPC internals
 
 ### MAME Debugger
 * [Scripting MAME via LUA](http://docs.mamedev.org/techspecs/luaengine.html)
-* [MAME LUA Script for COIN 1 Ram Seacrch](http://www.mamecheat.co.uk/forums/viewtopic.php?t=12245)
+* [MAME LUA script for COIN 1 RAM search](http://www.mamecheat.co.uk/forums/viewtopic.php?t=12245)
 
 ### PinMAME Debugger 
 * [Debugger HELP](PinMAME/pinmame-debugger-help.md)
