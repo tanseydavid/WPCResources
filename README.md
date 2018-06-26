@@ -34,6 +34,7 @@ Links, notes and other resources about WPC internals
 * [WPC Printer Kit](https://github.com/tanseydavid/WPCResources/blob/master/WPC-Printer-Kit.md)
 * [16c450 UART Datasheet](http://www.ti.com/lit/ds/symlink/tl16c450.pdf)
 * [NS16550A UART / PC16550D UART datasheet](http://www.ti.com/lit/ds/symlink/pc16550d.pdf)
+* [16550 UART Symbols - U of Colorado](http://ecee.colorado.edu/~ecen2120/Manual/uart/uart.ah)
 
 #### WPC LEDS Information
 * [WPC LEDS Explained](https://www.pinball.co.uk/pinball-problems-2/wpc-leds-explained/)
