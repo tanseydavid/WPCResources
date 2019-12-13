@@ -85,9 +85,9 @@ GAME
 * Lamp string number specified is too high
 * Lamp routine called with lamp 0.
 * Bad matrix specified on lamp operation
-* Non-lamp effect called sys_leff_exit
-* Lamp effect block freed (instead of sys_leff_exit)
-* Non-lamp effect called sys_leff_exit
+* Non-lamp effect called `sys_leff_exit`
+* Lamp effect block freed (instead of `sys_leff_exit`)
+* Non-lamp effect called `sys_leff_exit`
 * No matrix bit set for lamp effect. (string specified)
 * Addl. lamps allocted to effect specified NEW matrix.
 * Quick leff resource req. by non-leff process
@@ -146,9 +146,9 @@ SWITCHES
 	
 * Switch hit reported on switch in non-scanned column.
 * Switch number passed to switch primitive too high
-* get_switch_bit munged its parameters
-* Remove your coin switch dispatch flags (to coin_switch_handler).
-* Hook (indicated by U, in apfixed) must be in prime.
+* `get_switch_bit` munged its parameters
+* Remove your coin switch dispatch flags (to `coin_switch_handler`).
+* Hook (indicated by U, in `apfixed`) must be in prime.
 * Vapor lock got a ball beyond the max. allowed
 * Vapor lock called to remove w/ 0 balls present
 * Physical state of switches:
@@ -190,7 +190,7 @@ MULTIBALL / DEVICES
 * Unmonitored locked hole had a switch closure.
 * Lock count on eject hole was higher than 1
 * Could not get process block for mulitball device kickout.
-* MULTI_ALL_BALL_CHECK called while auditing in progress
+* `MULTI_ALL_BALL_CHECK` called while auditing in progress
 
 DISPLAY / DISPLAY EFFECTS (deff)
 --------------------------------------------------------------
@@ -212,10 +212,10 @@ DISPLAY / DISPLAY EFFECTS (deff)
 	* display "Segment area"
 	* Known / unknown segment
 	
-* Non-display effect called sys_deff_exit
-* Bad segment area specified to sys_copy_fixed_field
+* Non-display effect called `sys_deff_exit`
+* Bad segment area specified to `sys_copy_fixed_field`
 * Background display effect header invalid.
-* sys_deff_check called for background display effect.
+* `sys_deff_check` called for background display effect.
 * Dissolve requested, but background deff wasn't running
 * Higher priority deff stopped Enter your Initials.
 * Bad or Missing Master Scroll block
@@ -250,11 +250,11 @@ Process Block
 	* Process Block / non-Process Block
 	* Process Block Address
 	* Process ID (aka PID, Proc id)
-	* sys_suicide (Can be called by a process)
+	* `sys_suicide` (can be called by a process)
 	* Process can 'sleep'
 	* Process can be 'killed'
 	* Process can be 'on-a-list'
-	* audit_complete (can be called by a process)
+	* `audit_complete` (can be called by a process)
 	* can have a priority
 	* can have a P_LEFF_NUMBER
 	* can have a leff_number
@@ -262,7 +262,7 @@ Process Block
 	* Process dispatcher
 	* Process 'stack' (overflow / underflow)
 	* "1st 8 bytes of RAM"
-	* Slept process cannot write to 1st 8 bytes of RAM
+	* Slept process should not write to 1st 8 bytes of RAM
 	* Process calls "DIE" rather than RTS
 	* Process can be on FREE list / REGULAR list / PRIORITY list
 	
@@ -321,8 +321,8 @@ STRING HANDLING
 	* Message Table
 	* String too long for Process Block
 	
-* String too long for printf_buffer
-* Ill formatted % clause in printf string
+* String too long for `printf_buffer`
+* Ill formatted % clause in `printf` string
 * Bad pound clause embedded in string.
 * Message number passed is beyond table.
 * Printf:  Bad character following backslash.
@@ -343,8 +343,8 @@ TABLES / SOFTWARE FIELDS
 * Invalid software field number
 * User field request by proc w/o that field defined.
 * Field not in segment area
-* Display field too small for get_let
-* Internal error in GET_LET processing
+* Display field too small for `get_let`
+* Internal error in `GET_LET` processing
 * Attempt to store bit for field, beyond last byte
 * Software field flags need justification bits
 * Software Defined Fields
@@ -355,8 +355,8 @@ TABLES / SOFTWARE FIELDS
 APPLE / ORKIN
 --------------------------------------------------------------------
 	* Test Mode
-	* APPLE Errors
-	* User-Defined errors
+	* APPLE errors, FATAL and NON-FATAL 
+	* User-Defined errors, FATAL and NON-FATAL 
 	* User BREAK request
 	
 * Apple: unimplemented code %a
@@ -376,18 +376,18 @@ SYS
 --------------------------------------------------------------------
 	* cksum_init
 	* User Menu descriptors
-	* long_binary_to_bcd / length parameter must be > 0
-	* clock_time_stamp
+	* `long_binary_to_bcd` / length parameter must be > 0
+	* `clock_time_stamp`
 	* Special Help routines
 	* Whirl_field / valid quadrant numbers / invalid quadrant numbers
-	* def_status
-	* DEF_EQMAY
-	* Sleep
-	* sys_get_block
+	* `def_status`
+	* `DEF_EQMAY`
+	* `Sleep`
+	* `sys_get_block`
 	* EXEC-level routines
 	* EXEC hooks
 	* UTILITY requiring process IDs
-	* ticket_to_dispense (this is a RAM byte)
+	* `ticket_to_dispense` (this is a RAM byte)
 	* Stackable effects / Stackable effect flags / Stackable effect flag conflicts (amode etc.)
 	* Stackable effect flag = "amode"
 	* Block types
@@ -397,16 +397,16 @@ SYS
 	
 * Cksum init call to region that's not Prime
 * User menu descriptors out of order.
-* long_binary_to_bcd passed zero length
-* Invalid time stamp passed to clock_time_stamp
+* `long_binary_to_bcd` passed zero length
+* Invalid time stamp passed to `clock_time_stamp`
 * Bad special help routine requested
-* Whirl_field passed an invalid quadrant number
+* `Whirl_field` passed an invalid quadrant number
 * def_status MUST HAVE DEF_EQMAY set.
-* Sleep called from EXEC routine.
-* Exec routine called sys_get_block.
+* `Sleep` called from EXEC routine.
+* Exec routine called `sys_get_block`.
 * Exec level routine locked up (Detected by IRQ)
 * Exec hook called utility requiring a process id.
-* Ram byte ticket_to_dispense got corrupted.
+* Ram byte `ticket_to_dispense` got corrupted.
 
 * Stackable effect has flag conflict (amode etc.)
 
@@ -428,12 +428,12 @@ SYS
 CPU
 --------------------------------------------------------------------
 	* IRQ Tail hook
-	* CMOS RAM protected or unprotected / sys_lock_cmos
+	* CMOS RAM protected or unprotected / `sys_lock_cmos`
 	* LOCKED_CMOS value (should be in table)
 	
 * Irq Tail hook not in prime real estate
-* Cmos ram left unprotected (sys_lock_cmos forgotten)
-* Value specified for LOCKED_CMOS is not in table
+* Cmos ram left unprotected (`sys_lock_cmos` forgotten)
+* Value specified for `LOCKED_CMOS` is not in table
 * 6809 "reserved vector" processed
 * swi 3 executed
 * swi 2 executed
@@ -450,7 +450,7 @@ MEMORY
 	
 * Invalid audit ram referenced.
 * Couldn't allocate block for large stack!
-* free_block called w/ Null pointer
+* `free_block` called w/ Null pointer
 * Request to Free Ram Block failed
 * Switch test could not get a ram block
 * Request for player area byte, out of range
