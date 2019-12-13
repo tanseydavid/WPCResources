@@ -12,7 +12,7 @@ Links, notes and other resources about WPC internals
 * [Transistors](http://96.0.233.214/showthread.php?tid=93) | [PDF](http://96.0.233.214/attachment.php?aid=75) (80 pages)
 * [Adjustments](http://96.0.233.214/showthread.php?tid=92) | [PDF](pdfs/WPCAdjustments.pdf) (48 pages)
 * [Adjustment Lockouts](http://96.0.233.214/showthread.php?tid=111) | [PDF](http://96.0.233.214/attachment.php?aid=88) (34 pages)
-* [Sound calls](http://96.0.233.214/showthread.php?tid=8) | [PDF](http://96.0.233.214/attachment.php?aid=81)  (59 pages)
+* [Sound calls](http://96.0.233.214/showthread.php?tid=8) | [PDF](pdfs/WPCSoundCalls.pdf)  (59 pages)
 * [DMD scroller](http://96.0.233.214/showthread.php?tid=77)
 * [Solenoid notes](http://96.0.233.214/showthread.php?tid=76)
 * [Coin vs Free play mods](http://96.0.233.214/showthread.php?tid=16)
