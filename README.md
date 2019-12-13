@@ -8,7 +8,7 @@ Links, notes and other resources about WPC internals
 
 #### notes from *mrglee* (Garret Lee) - on pinhacks.com
 * [Match Values](http://96.0.233.214/showthread.php?tid=112) | [PDF](http://96.0.233.214/attachment.php?aid=89) (14 pages)
-* [Lamp Matrix](http://96.0.233.214/showthread.php?tid=91) | [PDF](http://96.0.233.214/attachment.php?aid=73) (46 pages)
+* [Lamp Matrix](http://96.0.233.214/showthread.php?tid=91) | [PDF](pdfs/WPCLampMatrix.pdf) (46 pages)
 * [Transistors](http://96.0.233.214/showthread.php?tid=93) | [PDF](http://96.0.233.214/attachment.php?aid=75) (80 pages)
 * [Adjustments](http://96.0.233.214/showthread.php?tid=92) | [PDF](pdfs/WPCAdjustments.pdf) (48 pages)
 * [Adjustment Lockouts](http://96.0.233.214/showthread.php?tid=111) | [PDF](http://96.0.233.214/attachment.php?aid=88) (34 pages)
