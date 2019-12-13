@@ -11,7 +11,7 @@ Links, notes and other resources about WPC internals
 * [Lamp Matrix](http://96.0.233.214/showthread.php?tid=91) | [PDF](pdfs/WPCLampMatrix.pdf) (46 pages)
 * [Transistors](http://96.0.233.214/showthread.php?tid=93) | [PDF](pdfs/WPCTransistors.pdf) (80 pages)
 * [Adjustments](http://96.0.233.214/showthread.php?tid=92) | [PDF](pdfs/WPCAdjustments.pdf) (48 pages)
-* [Adjustment Lockouts](http://96.0.233.214/showthread.php?tid=111) | [PDF](http://96.0.233.214/attachment.php?aid=88) (34 pages)
+* [Adjustment Lockouts](http://96.0.233.214/showthread.php?tid=111) | [PDF](pdfs/WPC_AdjustmentLockouts.pdf) (34 pages)
 * [Sound calls](http://96.0.233.214/showthread.php?tid=8) | [PDF](pdfs/WPCSoundCalls.pdf)  (59 pages)
 * [DMD scroller](http://96.0.233.214/showthread.php?tid=77)
 * [Solenoid notes](http://96.0.233.214/showthread.php?tid=76)
