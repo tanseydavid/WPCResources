@@ -6,11 +6,11 @@ Links, notes and other resources about WPC internals
 
 ## WPC Internals
 
-#### notes from *mrglee* (Garret Lee)
+#### notes from *mrglee* (Garret Lee) - on pinhacks.com
 * [Match Values](http://96.0.233.214/showthread.php?tid=112) | [PDF](http://96.0.233.214/attachment.php?aid=89) (14 pages)
 * [Lamp Matrix](http://96.0.233.214/showthread.php?tid=91) | [PDF](http://96.0.233.214/attachment.php?aid=73) (46 pages)
 * [Transistors](http://96.0.233.214/showthread.php?tid=93) | [PDF](http://96.0.233.214/attachment.php?aid=75) (80 pages)
-* [Adjustments](http://96.0.233.214/showthread.php?tid=92) | [PDF](http://96.0.233.214/attachment.php?aid=74) (48 pages)
+* [Adjustments](http://96.0.233.214/showthread.php?tid=92) | [PDF](pdfs/WPCAdjustments.pdf) (48 pages)
 * [Adjustment Lockouts](http://96.0.233.214/showthread.php?tid=111) | [PDF](http://96.0.233.214/attachment.php?aid=88) (34 pages)
 * [Sound calls](http://96.0.233.214/showthread.php?tid=8) | [PDF](http://96.0.233.214/attachment.php?aid=81)  (59 pages)
 * [DMD scroller](http://96.0.233.214/showthread.php?tid=77)
