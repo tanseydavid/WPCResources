@@ -6,7 +6,8 @@ Links, notes and other resources about WPC internals
 
 ## WPC Internals
 
-#### notes from *mrglee* (Garret Lee) - on pinhacks.com
+#### notes from *mrglee* (Garret Lee) - 
+originally from pinhacks.com (currently offline)
 * [Match Values](http://96.0.233.214/showthread.php?tid=112) | [PDF](pdfs/WPC_MatchValue.pdf) (14 pages)
 * [Lamp Matrix](http://96.0.233.214/showthread.php?tid=91) | [PDF](pdfs/WPCLampMatrix.pdf) (46 pages)
 * [Transistors](http://96.0.233.214/showthread.php?tid=93) | [PDF](pdfs/WPCTransistors.pdf) (80 pages)
