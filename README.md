@@ -44,6 +44,7 @@ originally from pinhacks.com (currently offline)
 
 #### WPC DCS Sound
 * [FPGA DCS Project - Dr. Edward Cheung](http://www.edcheung.com/album/album07/Pinball/wpc_sound.htm)
+* [Notes on DCS format / WPC DSP chip](wpc-dcs-audio-format-notes.md)
 
 ### WPC Hardware Repair Guide
 * [WPC Repair Guide](http://www.pinballsupernova.com/Williams%20Repair%20Guide/Williams%201990-1999%20WPC.pdf)
