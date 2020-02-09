@@ -1,5 +1,11 @@
+***03-25-2012 mrglee*** 
+
+**TZ - Twilight Zone 9.4h Easter Egg Table**
+
+
+
 ```
-;----------------------------------;--------------------------------------------
+;------------------------------------------------------------------------
 ;
 ;
 ; Easter egg checker.
@@ -34,7 +40,7 @@
 6195: 32 63         LEAS $0003,S        ;
 6197: 35 F6         PULS A,B,X,Y,U,PC   ;
 ;
-;--------------------------------;-------------------------------------------------
+;-----------------------------------------------------------------------
 ;
 6199: 00 05             ; Table entries
 619B: 04                ; bytes per entry
@@ -64,22 +70,23 @@
 61BC: 0F 08 03          ; entry 9
                         ; 15R + 1L + 8R + 1L + 3R + 1L, Call $646D, ?
 ;
-;--------------------------------;-------------------------------------------------
+;----------------------------------------------------------------------
 ```
+
 So we have 3 unknown functions:
 `$64D9`, `$64E1`, and `$646D`.
 
 Below are partially annotated functions for `$64D9` and `$64E1`:
 
 ```
-;----------------------------------------;-----------------------------------------
+;---------------------------------------------------------------------
 ;
 64D9: BD 8C 27
 64DC: 01 17
 64DE: 02 58
 64E0: 39         RTS 
 ;
-;----------------------------------------;-----------------------------------------
+;---------------------------------------------------------------------
 ;
 64E1: BD 87 66      JSR $8766 ; SearchLinkedListForId(0x0117)
 64E4: 01 17                     ;
@@ -182,3 +189,75 @@ to be held down after entering the combination in order to see any effect.
 
 And this also shows that sometimes two different combinations might need to be entered after each other in order to see 
 an effect (along with holding a button down afterwards).
+
+
+
+
+***03-25-2012 06:53 AM by Pin*bot***  
+**RE: TZ - Twilight Zone 9.4h Easter Egg Table**
+
+Thanks for the help!
+The first pair of codes simply reset the machine(It did not go into test mode)
+
+The second gave me:
+* `DE(NKKJU`
+* `DA=NP U=`
+
+Weird.
+
+I hope that wasn't to much trouble to find.
+Do you mind if I put these on this site?
+
+Edit:
+
+The first pair does go into test mode if you hold it after you here the activation sound.
+
+***03-25-2012, 07:29 AMPost: #7***  
+**mrglee Offline**  
+
+**RE: TZ - Twilight Zone 9.4h Easter Egg Table**
+
+Yes I just got the game to do a reset after entering the first two pairs. How did you get it to go into test mode exactly? While holding the left button down I do hear the menu sound and immediate reset (with pinmame). Are you saying you let go of the left flipper button just a the moment you hear the menu sound?
+
+I got the same message on the DMD for the last combination. It could be debug data for the s/w guys. DA could be "Destination Address" and "U=" could be the value stored in the Motorola 68b09 U register at some point.
+
+Once posted on this site it's pretty much "out there" so fine with me if it gets mentioned on the cows and easter eggs site. Thanks for asking though.
+
+***03-25-2012, 11:10 AMPost: #8***
+***mrglee Offline***
+
+**RE: TZ - Twilight Zone 9.4h Easter Egg Table**
+
+In Pinmame I set a breakpoint whenever `$172D` is accessed. This is the memory location modified by the second flipper button combination code just prior to calling the code which is supposed to start test mode but actually ends up resetting for some reason.
+
+I found that whenever you enter test mode (either by the "enter" button or by the easter egg) it calls a little function, shown below:
+
+```
+;-----------------------------------------------------------
+;
+60DD: 34 02 PSHS A
+60DF: B6 17 2D LDA $172D
+60E2: 81 54 CMPA #$54
+60E4: 26 06 BNE $60EC
+60E6: 7F 17 2D CLR $172D
+60E9: 7E 8D 9B JMP $8D9B
+60EC: 35 82 PULS A,PC ; (PUL? PC=RTS)
+;
+;-----------------------------------------------------------
+```
+
+As you can see it checks if `$172D` contains value `0x54`, if not, it does nothing. If it does, it sets `$172D` to `0x00` and then jumps to `$8D9B`. Since the second easter egg puts `0x54` into `$172D` then it means the code will jump to `$8D9B` while attempting to enter the test mode.
+
+If you look at the last 2 bytes of the ROM, non-banked WPC address `$FFFE..$FFFF`, you will also see `$8D9B` which is the reset vector. So by jumping to address `$8D9B` it is explicitly resetting.
+
+I think this is just a way of forcing a reset with the flipper buttons. I think TOM also had such an "easter egg" which I posted awhile back on this forum.
+
+***03-25-2012, 11:26 AMPost: #9***
+***Pin*bot Offline***
+
+**RE: TZ - Twilight Zone 9.4h Easter Egg Table**
+
+I got the same message on the DMD for the last combination. It could be debug data for the s/w guys. DA could be "Destination Address" and "U=" could be the value stored in the Motorola 68b09 U register at some point.
+
+Once posted on this site it's pretty much "out there" so fine with me if it gets mentioned on the cows and easter eggs site. Thanks for asking though.
+I got it into test mode by holding the left flipper for several seconds after I heard the test mode sound.
