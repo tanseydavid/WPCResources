@@ -30,7 +30,7 @@ originally from pinhacks.com (currently offline)
 
 ### WPC Orkin Notes
 * [WPC Orkin Error Messages by Number (AF)]()
-* 
+* [WPC Orkin Strings - Notes (AF)](WPC%20Orkin%20Strings.md)
 
 ### WPC Bench Test unit
 * [Williams WPC 95 bench test (youtube)](https://www.youtube.com/watch?v=aBJBBL42gS8)
