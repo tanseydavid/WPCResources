@@ -28,6 +28,10 @@ originally from pinhacks.com (currently offline)
 #### notes from *maddes* (Matthias Buecher)
 * [WPC Debugging](https://www.maddes.net/pinball/wpc_debugging.htm)
 
+### WPC Orkin Notes
+* [WPC Orkin Error Messages by Number (AF)]()
+* 
+
 ### WPC Bench Test unit
 * [Williams WPC 95 bench test (youtube)](https://www.youtube.com/watch?v=aBJBBL42gS8)
 
