@@ -30,7 +30,7 @@ originally from pinhacks.com (currently offline)
 
 ### WPC Orkin Notes
 * [WPC Orkin Errors by Number (AF)](wpc-orkin-errors-by-number.md)
-* [WPC Orkin Mystery Bank $18 - ORKIN](wpc-orkin-errors-by-number.md)
+* [WPC Orkin Mystery Bank $18](wpc-orkin-mystery-bank-18.md)
 * [WPC Orkin Strings - Notes (AF)](WPC%20Orkin%20Strings.md)
 
 ### WPC Bench Test unit
