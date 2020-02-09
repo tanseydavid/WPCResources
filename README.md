@@ -29,7 +29,8 @@ originally from pinhacks.com (currently offline)
 * [WPC Debugging](https://www.maddes.net/pinball/wpc_debugging.htm)
 
 ### WPC Orkin Notes
-* [WPC Orkin Error Messages by Number (AF)]()
+* [WPC Orkin Errors by Number (AF)](wpc-orkin-errors-by-number.md)
+* [WPC Orkin Mystery Bank $18 - ORKIN](wpc-orkin-errors-by-number.md)
 * [WPC Orkin Strings - Notes (AF)](WPC%20Orkin%20Strings.md)
 
 ### WPC Bench Test unit
