@@ -100,7 +100,7 @@ originally from pinhacks.com (currently offline)
 * [WPC Prototype board](https://pinside.com/pinball/forum/topic/wpc-95-cpu-prototype-board)
 
 ### Robotron:2084
-* Disassembly notes and Interview (http://www.robotron2084guidebook.com/technical/christiangingras/)
+* [Disassembly notes and Interview](http://www.robotron2084guidebook.com/technical/christiangingras/)
 
 ### Disassembly / Reverse Engineering
 * [Binary Ninja - Low-Level IL Explanation](https://blog.trailofbits.com/2017/01/31/breaking-down-binary-ninjas-low-level-il/)
