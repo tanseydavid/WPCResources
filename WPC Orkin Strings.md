@@ -47,35 +47,35 @@ GAME
 
 ## LAMPS / LAMP EFFECTS (leff)
 
-### Physical lamps / Logical lamps
+#### Physical lamps / Logical lamps
 * Lamp numbers are 1-relative
 
-### Lamp Table (must be in PRIME-RealEstate)
+#### Lamp Table (must be in PRIME-RealEstate)
 
-### Lamp Operation matrix
+#### Lamp Operation matrix
 
-### Lamp routines
+#### Lamp routines
 
-### Lamp effect list
+#### Lamp effect list
 
-### Lamp blocks / Lamp effect blocks
+#### Lamp blocks / Lamp effect blocks
 
-### Lamp Effects vs. non-Lamp Effects
+#### Lamp Effects vs. non-Lamp Effects
 * Lamp Effects matrix-bits
 
-### Lamp Strings
+#### Lamp Strings
 *  Lamp String number
 * can have IF, THEN and ENDIF constructs
 * Lamp String operators
 * Lamp String range operator
 
-###  Additional lamps can be allocated to effect
+####  Additional lamps can be allocated to effect
 
 	* lamp/flag twiddler (number-to-lamp-flag-twiddler)
 	* LF_ flags / LEFL_ flags
 	* Flasher numbers are 1-relative
 
-### Orkin Messages 
+#### Orkin Messages - Lamp-related 
 * Lamp table invalid, or not in prime real estate.
 * Lamp string operator out of range
 * Lamp string range op got lamps in wrong order.
