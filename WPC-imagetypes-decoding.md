@@ -42,3 +42,34 @@ case 0x0B   :  //  Write Data Bytes or Multiple Skips, Rows
 default	:
 	TmpStr.Format("Unknown Image Type 0x%02x",ch);
 ```
+
+```
+z = decodedmximage_type1( 0x41bd, 0x20 )
+
+//
+// WPC ImageType = 01
+//  Simple Repeats, Columns
+//
+void DMD::Decode_01(unsigned char **Source, unsigned char *Dest)
+{
+// IMAGE TYPE 0x04 or 0x01                ; EDF1h   Byte1 = Byte AFTER the 0x04
+//
+// Simple Repeats, Columns
+//
+// Format:
+//  0x02                   Image type byte, byte that got us this far.
+//   <Special Flag Byte>   Special 8-bit value that is used to signal repeats
+//   <data starts here>
+//
+// This is a simple encoding very similar to IMAGE TYPE 0x05 or 0x02.  This
+// encoding uses a simple single-special-byte at the top and whenever this
+// byte is encountered, the following 2 bytes are used for Repeat/Data so that
+// the Data is repeated for the number of times in 'Repeat'.
+//
+// The only difference between this and IMAGE TYPE 0x05 or 0x02 is that this
+// encoding method writes in columns from LEFT to RIGHT starting at the top
+// left and ending at the bottom right of the DMD.
+//
+	Decode_01or02(Source,&Dest,WRITE_TYPE_COLUMNS);
+}
+```
