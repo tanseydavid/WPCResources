@@ -2,14 +2,16 @@ WPC Mystery Bank $18 (Orkin?)
 =============================
 
 * Is this bank/page `$18` where Orkin lives?
-* Is referenced by more than ErrorHandling routine
+* Is referenced by more than one ErrorHandling routine
+* Is referenced by more than one Initialization routine
 * In a ROM that is large enough to have a native bank `$18`, i.e CV the contents are interesting
 * Calls to $18 page
 * Ram $031e and $031f relationship
 * DEBUG ports relationship
 
-`FFD0` vector with `00 00` 
-`FFD2` vector with `00 00` 
+### Vectors related to ORKIN
+* `FFD0` vector with `00 00` 
+* `FFD2` vector with `00 00` 
 
 `$18` -> `$38` when forced in NBAF
 
@@ -23,7 +25,27 @@ $561b, $3b
 
 Test for $031f == 0 
 	JSR 403F ; after setting bank to $18
-	
+
+```
+99ED: de 4d              LDU   $4D
+99EF: b6 03 1f           LDA  ram_DEBUG_ACTIVE    
+99F2: 27 15              BEQ   $9A09
+99F4: ec c8 11           LDD   $11,U
+99F7: 10 b3 ff d2        CMPD  $FFD2
+99FB: 26 0c              BNE   $9A09
+99FD: 10 83 00 00        CMPD  #$0000
+9A01: 27 06              BEQ   $9A09
+9A03: bd 89 f0           JSR_BANK( $407c, $18 )
+9A06: 40 7c 18
+9A09: 96 51              LDA   $51
+9A0B: 27 16              BEQ   $9A23
+9A0D: 8e 03 06           LDX   #$0306
+9A10: bd 9a 50           JSR  free_ram_block      
+9A13: 24 04              BCC   $9A19
+9A15: bd 83 31           ErrorHandler( $0a )
+9A18: 0a
+```
+
 JSR 904f  ; input examples: $20, $21, $22, $23, etc.
   A has return code, either 0 or 3
   
