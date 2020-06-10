@@ -29,9 +29,9 @@ originally from pinhacks.com (currently offline)
 * [WPC Debugging](https://www.maddes.net/pinball/wpc_debugging.htm)
 
 ### WPC Orkin Notes
-* [WPC Orkin Errors by Number (AF)](wpc-orkin-errors-by-number.md)
+* [WPC Orkin Errors by Number (TAF)](wpc-orkin-errors-by-number.md)
 * [WPC Orkin Mystery Bank $18](wpc-orkin-mystery-bank-18.md)
-* [WPC Orkin Strings - Notes (AF)](WPC%20Orkin%20Strings.md)
+* [WPC Orkin Strings - Notes (TAF)](WPC%20Orkin%20Strings.md)
 
 ### WPC Bench Test unit
 * [Williams WPC 95 bench test (youtube)](https://www.youtube.com/watch?v=aBJBBL42gS8)
