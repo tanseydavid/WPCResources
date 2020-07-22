@@ -44,6 +44,7 @@ originally from pinhacks.com (currently offline)
 * [16c450 UART Datasheet](http://www.ti.com/lit/ds/symlink/tl16c450.pdf)
 * [NS16550A UART / PC16550D UART datasheet](http://www.ti.com/lit/ds/symlink/pc16550d.pdf)
 * [16550 UART Symbols - U of Colorado](http://ecee.colorado.edu/~ecen2120/Manual/uart/uart.ah)
+* [NS16550 Pinouts](http://www.msarnoff.org/chipdb/16550)
 
 #### WPC LEDS Information
 * [WPC LEDS Explained](https://www.pinball.co.uk/pinball-problems-2/wpc-leds-explained/)
