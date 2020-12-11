@@ -9,8 +9,8 @@ WPC-EDIT methods
 * `DecodeImageToPlane`
 
 
-[6809 SBASM](https://www.sbprojects.net/sbasm/6809.php)
-[6809 IRQs](http://www.roust-it.dk/coco/6809irq.pdf)
+[6809 SBASM](https://www.sbprojects.net/sbasm/6809.php)  
+[6809 IRQs](http://www.roust-it.dk/coco/6809irq.pdf)  
 
 
 ```
