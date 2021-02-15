@@ -28,14 +28,6 @@ originally from pinhacks.com (currently offline)
 #### notes from *maddes* (Matthias Buecher)
 * [WPC Debugging](https://www.maddes.net/pinball/wpc_debugging.htm)
 
-### WPC Orkin Notes
-* [WPC Orkin Errors by Number (TAF)](wpc-orkin-errors-by-number.md)
-* [WPC Orkin Mystery Bank $18](wpc-orkin-mystery-bank-18.md)
-* [WPC Orkin Strings - Notes (TAF)](WPC%20Orkin%20Strings.md)
-
-### WPC Bench Test unit
-* [Williams WPC 95 bench test (youtube)](https://www.youtube.com/watch?v=aBJBBL42gS8)
-
 #### WPC Serial Port
 * [NBA Fastbreak Serial port](https://pinside.com/pinball/forum/topic/nba-fastbreak)
 * [Modern WPC Serial Port project](http://pinball-mods.com/blogs/?p=278)
@@ -45,6 +37,14 @@ originally from pinhacks.com (currently offline)
 * [NS16550A UART / PC16550D UART datasheet](http://www.ti.com/lit/ds/symlink/pc16550d.pdf)
 * [16550 UART Symbols - U of Colorado](http://ecee.colorado.edu/~ecen2120/Manual/uart/uart.ah)
 * [NS16550 Pinouts](http://www.msarnoff.org/chipdb/16550)
+
+### WPC Orkin Notes
+* [WPC Orkin Errors by Number (TAF)](wpc-orkin-errors-by-number.md)
+* [WPC Orkin Strings - Notes (TAF)](WPC%20Orkin%20Strings.md)
+* [WPC Orkin Mystery Bank $18](wpc-orkin-mystery-bank-18.md)
+
+### WPC Bench Test unit
+* [Williams WPC 95 bench test (youtube)](https://www.youtube.com/watch?v=aBJBBL42gS8)
 
 #### WPC LEDS Information
 * [WPC LEDS Explained](https://www.pinball.co.uk/pinball-problems-2/wpc-leds-explained/)
