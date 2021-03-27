@@ -7,14 +7,15 @@ Links, notes and other resources about WPC internals
 ## WPC Internals
 
 #### notes from *mrglee* (Garret Lee)  
-
 originally from pinhacks.com (currently offline)
-* ~~[Match Values](http://96.0.233.214/showthread.php?tid=112)~~ | [Match Values PDF](pdfs/WPC_MatchValue.pdf) (14 pages)
-* ~~[Lamp Matrix](http://96.0.233.214/showthread.php?tid=91)~~ | [Lamp Matrix PDF](pdfs/WPCLampMatrix.pdf) (46 pages)
-* ~~[Transistors](http://96.0.233.214/showthread.php?tid=93)~~ | [Transistors PDF](pdfs/WPCTransistors.pdf) (80 pages)
-* ~~[Adjustments](http://96.0.233.214/showthread.php?tid=92)~~ | [Adjustments PDF](pdfs/WPCAdjustments.pdf) (48 pages)
-* ~~[Adjustment Lockouts](http://96.0.233.214/showthread.php?tid=111)~~ | [Adjustment Lockouts PDF](pdfs/WPC_AdjustmentLockouts.pdf) (34 pages)
-* ~~[Sound calls](http://96.0.233.214/showthread.php?tid=8)~~ | [Sound calls PDF](pdfs/WPCSoundCalls.pdf)  (59 pages)
+
+* [Match Values PDF](pdfs/WPC_MatchValue.pdf) (14 pages)
+* [Lamp Matrix PDF](pdfs/WPCLampMatrix.pdf) (46 pages)
+* [Transistors PDF](pdfs/WPCTransistors.pdf) (80 pages)
+* [Adjustments PDF](pdfs/WPCAdjustments.pdf) (48 pages)
+* [Adjustment Lockouts PDF](pdfs/WPC_AdjustmentLockouts.pdf) (34 pages)
+* [Sound calls PDF](pdfs/WPCSoundCalls.pdf)  (59 pages)
+
 * [Indexed Callbacks Table](pdfs/mrglee-notes-callbacks-table.md)
 * [Easter Eggs Table Notes](pdfs/mrglee-notes-easter-eggs.md)
 * ~~[DMD scroller](http://96.0.233.214/showthread.php?tid=77)~~
@@ -73,6 +74,7 @@ originally from pinhacks.com (currently offline)
 * Pinball Simulator Start Template (PSST) - [source](https://github.com/vpinball/pinmame/blob/master/src/wpc/sims/template/psst.c)
 
 ## 6809 Resources
+* [Assist09 on GitHub](https://github.com/jefftranter/6809/tree/master/sbc/assist09)
 * [Assist09 Monitor and Forth asm source code](http://home.hccnet.nl/a.w.m.van.der.horst/m6809.html)
 * [6809 Emulation Page](http://atjs.mbnet.fi/mc6809/#Info)
 * [6809 OpCodes (alphabetical order)](6809opsalpha.md)
