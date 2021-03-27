@@ -82,6 +82,9 @@ originally from pinhacks.com (currently offline)
 * [6809 Programming Model and Registers](https://www.sbprojects.net/sbasm/6809.php)
 
 ## Other Hardware / Software projects 
+### WPC-EMU
+* [WPC-EMU on GitHub](https://github.com/neophob/wpc-emu)
+* 
 ### FreeWPC
 * [WPC Hardware Description](http://bcd.github.io/freewpc/The-WPC-Hardware.html#The-WPC-Hardware)
 * [FreeWPC Serial Port Debugging](http://bcd.github.io/freewpc/Debugging.html)
