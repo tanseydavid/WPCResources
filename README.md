@@ -3,6 +3,7 @@ Links, notes and other resources about WPC internals
 
 ## History
 * [Williams Pinball Controller (WIKIPEDIA)](https://en.wikipedia.org/wiki/Williams_Pinball_Controller)
+* [Williams WPC (PINWIKI)](https://www.pinwiki.com/wiki/index.php/Williams_WPC)
 
 ## WPC Internals
 
