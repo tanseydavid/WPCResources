@@ -1,5 +1,26 @@
-﻿WPC Bank Addressing
+WPC Bank Addressing
 ===================
+
+#### WPC ROM Sizes
+
+| Size  | Number of banks | Minimum BankId |
+|-------|-----------------|----------------|
+| 128KB | 6               | $38            |
+| 256KB | 12              | $30            |
+| 512KB | 18              | $20            |
+|   1MB | 24              | $00            |
+
+
+
+#### Memory Addresses - WPC Bank Switching
+
+| Address | Type | Description                                       | 
+|---------|------|---------------------------------------------------| 
+| `$0011` | RAM  | current bank selection                            |  
+| `$3ffc` | I/O  | bank selector port                                | 
+| `$4000` | ROM  | every ROM bank has an ID marker in the first byte | 
+
+
 
 ### $4000 - $7FFF the paged BANK region
 * 16K in length

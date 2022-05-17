@@ -1,7 +1,12 @@
 MAME vs PinMAME for Reversing
 =============================
 
-Advantages of MAME  
+In the past PinMAME was the only choice because WPC ROMs were only supported there not in MAME.  This was true around the time Maddes wrote his debugging piece.  
+
+Additionally special PinMAME and MAME builds used to be the only way to use the MAME debugger -- the MAME debugger was not included in all builds.
+
+
+Advantages of MAME 
 * MAME debugger is included in ALL builds
 * LUA scripting support 
 * Source code readily available
@@ -13,53 +18,50 @@ Disadvantages of MAME
     * No ball handling
 
 
-```	
-save[{d|i}] <filename>,<address>,<length>[,<cpu>]
-
-	save gw_adjustments_factory_reset.mem, 0x1b1d, 0xba, 0
-	save gw_adjustments_serial.mem, 0x1b1d, 0xba, 0
-
-	load gw_adjustments_serial.mem, 0x1b1d, 0xba, 0
-
-	dump gw_adjustments_factory_reset.dmp, 0x1b1d, 0xba, 0, 0
-
-suspend 0;b!037b=1;pc=8eb4;bp 410a;resume 0;b=0x20;g
-
-b!037b=1;pc=8eb4;bp 410a;b=0x20;
-wpset 3e66,2,rw,1,{g;};wpset 3d60,2,rw,1,{g;};
-b!037b=1;pc=8eb4;bp 410a;b=0x1;g
+* Updated how to retrieve PinMAME source code from Subversion repository.
+* PinMAME 2.2 has been released. Executables with MAME Debugger are available too on Sourceforge.
+* Hard-to-get current DEBUG releases
+* Hard-to-build
+    * Old Visual Studio examples
+    * Old SDKs for Win and/or DirectX
 
 
-OrkinCallIndexInA
-b!037b=1;pc=8eb8;bp 410a;a=0x1;g
+MADDES ASSERTION (HOW-TO log WPC bankId in MAME using TRACE): 
+> Unfortunately you can not log the content of a memory address with TRACE, so you don't know the bank of the code from $4000 to $7FFF, but you can search for the bytes of the code in the Game ROM to find out.    
+
+MADDES ASSERTION (mystery bankId $18): 
+> Other weird FPS constructs are calls of functions in non-existant banks, in IJ L-7 of bank $18 (try PinMAME: WP 0011 18). These FPS really work, as unused conductors, which depend on the ROM size, always have high voltage (=bit set). For IJ L-7 bank $18 leads to bank $38.
+Below is "jmpPagedFunc" in hex values and 6809 assembler with comments.
+
+    
+MADDES:  
+#### Debugging game functions
+Most of the time you will be interested what happens when a special function is started in a game. The best way to do this is to exit the debugger, hit all switches necessary to start the function in the emulation, but get back into the debugger before or directly after you strike the last switch. Use the TRACE command to log what addresses are executed during this function. Unfortunately you can not log the content of a memory address with TRACE, so you don't know the bank of the code from $4000 to $7FFF, but you can search for the bytes of the code in the Game ROM to find out.
+
+#### The three "call a bank function" routines
+Another way to find functions inside a WPC ROM is to debug three routines (I named them "call a bank function" routines) which are in each and every WPC ROM. These routines are used when another function is called. As the target function could be within another bank, these routines care about switching the bank and calling the target function. The JSR routines also care about restoring the previous bank if necessary and jumping back to the original calling code. 
+
+To find these routines search for the byte sequence "6E 9F 00 12" (=jmp [$0012]) in the System ROM, as this is always the last command of all three routines.
+
+All three routines use a simple general purpose structure I named "Pointer Structure" (PS), this structure is used to point to functions (FPS) and data (DPS):
+
+Format	Description
+word	address of target
+byte	bank of target
+#$FF means a System ROM or dynamically selected target
+
+The calls to the three routines are done very tricky with a FPS, or a pointer to one, directly behind the calling JSR, hence totally confusing disassemblers because of mixed code and data. 
+
+My Java package WPC_Tool can create corresponding symbol files for DASMx, so the disassembler doesn't get confused, but there could also be some false positives (e.g. in graphics).
+
+Other weird FPS constructs are calls of functions in non-existant banks, in IJ L-7 of bank $18 (try PinMAME: WP 0011 18). These FPS really work, as unused conductors, which depend on the ROM size, always have high voltage (=bit set). For IJ L-7 bank $18 leads to bank $38.
+Below is "jmpPagedFunc" in hex values and 6809 assembler with comments.
 
 
-OrkinCallIndexInA = 10 needs X = ?
-b!037b=1;pc=8eb8;bp 4435;a=0x10;x=0x0B11;g
-```
+### Macro Handling for Non-Standard call parameters
 
-## WPC MAME-Debugger Commands 
-### Break on WPC Bank Address 
+MADDES "call a bank function" routines
 
-```
-Bank Address: $68a0
-BankId: $35
-
-rp {PC==0x68a0 && b@4000==0x35}
-
-```
-
-gw_pc
-======
-
-Orkin SysCall Types + Inline Parameter counts
----------------------------------------------
-
-* 61   - 1 inline parameter byte  
-* 47   - 2 inline parameter bytes  
-* 11   - 3 inline parameter bytes  
-* 9   - 4 inline parameter bytes  
-* 7   - 5 inline parameter bytes  
-* 3   - 6 inline parameter bytes  
-
-138 total subroutines with inline parameters
+* `JSR_BANK`
+* `JMP_BANK`
+* `JSR_BANKADDRESS_AT`
