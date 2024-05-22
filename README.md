@@ -96,6 +96,7 @@ originally from pinhacks.com (currently offline)
 
 ### Robotron:2084
 * [Disassembly notes and Interview](http://www.robotron2084guidebook.com/technical/christiangingras/)
+* [Wayback Machine - Disassembly Notes](https://web.archive.org/web/20130714200334/http://www.robotron2084guidebook.com/technical/christiangingras/)
 
 ### Disassembly / Reverse Engineering
 * [Binary Ninja - Low-Level IL Explanation](https://blog.trailofbits.com/2017/01/31/breaking-down-binary-ninjas-low-level-il/)
